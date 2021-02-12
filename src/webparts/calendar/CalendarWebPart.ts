@@ -21,7 +21,8 @@ export default class CalendarWebPart extends BaseClientSideWebPart<ICalendarWebP
     const element: React.ReactElement<ICalendarProps> = React.createElement(
       Calendar,
       {
-        description: this.properties.description
+        description: this.properties.description,
+        context:this.context
       }
     );
 
@@ -32,9 +33,9 @@ export default class CalendarWebPart extends BaseClientSideWebPart<ICalendarWebP
     ReactDom.unmountComponentAtNode(this.domElement);
   }
 
-  protected get dataVersion(): Version {
+  /*protected get dataVersion(): Version {
     return Version.parse('1.0');
-  }
+  }*/
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
