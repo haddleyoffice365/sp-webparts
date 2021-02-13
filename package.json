@@ -17,9 +17,12 @@
     "@microsoft/sp-office-ui-fabric-core": "1.11.0",
     "@microsoft/sp-property-pane": "1.11.0",
     "@microsoft/sp-webpart-base": "1.11.0",
+    "@pnp/pnpjs": "^2.2.0",
     "@uifabric/fluent-theme": "^7.4.14",
+    "moment": "^2.29.1",
     "office-ui-fabric-react": "6.214.0",
     "react": "16.8.5",
+    "react-big-calendar": "^0.32.0",
     "react-dom": "16.8.5"
   },
   "devDependencies": {
